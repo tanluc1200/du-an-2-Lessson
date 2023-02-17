@@ -1,7 +1,192 @@
-
-html{
+:root {
+    --font-primary: "Poppins", sans-serif;
+    --font-secondary: "Sen", sans-serif;
+}
+html {
     font-size: 6.25%;
 }
-body{
+body {
     font-size: 16rem;
+    font-family: var(--font-primary);
+}
+/* Thành phần dùng chung */
+.content {
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24.5px;
+    min-width: 118px;
+    min-height: 50px;
+}
+/*============== header============== */
+.header {
+    background-color: #fffcf4;
+    padding-top: 36px;
+    height: 100vh;
+}
+.header-nav {
+    align-items: center;
+}
+/* .header-nav-logo {
+} */
+.header-nav-menu {
+    margin-left: auto;
+    gap: 42px;
+}
+/* .header-nav-item {
+} */
+.header-nav-link {
+    font-weight: 400;
+    font-size: 16rem;
+    line-height: 1.75;
+    color: #5f5b53;
+    position: relative;
+}
+.header-nav-link.active {
+    font-weight: 600;
+    color: #171100;
+}
+.header-nav-link.active:after {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 2px;
+    background: #171100;
+    border-radius: 1px;
+    bottom: 0;
+    left: 0;
+}
+.header-nav-btn {
+    font-weight: 600;
+    font-size: 16rem;
+    line-height: 1.75;
+    color: #ffffff;
+    background: #171100;
+    margin-left: 70px;
+}
+/* header hero */
+.header-hero {
+    margin-top: 64px;
+}
+.header-hero-img {
+    width: 48.7%;
+    position: relative;
+}
+.header-hero-img img {
+    width: 470px;
+    height: 685px;
+    border-radius: 20px;
+}
+.header-hero-info {
+    flex: 1;
+    padding-left: 130px;
+    padding-top: 64px;
+}
+.header-hero-info-title {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 58rem;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #171100;
+    margin-bottom: 22px;
+}
+.header-hero-info-desc {
+    font-size: 18rem;
+    line-height: 1.67;
+    color: #5f5b53;
+    margin-bottom: 35px;
+}
+.header-hero-info-button {
+    align-items: center;
+    margin-bottom: 48px;
+}
+.header-hero-info-btn {
+    background: #ffb900;
+    border-radius: 32px;
+    height: 64px;
+    min-width: 180px;
+    font-weight: 600;
+    font-size: 18rem;
+    line-height: 1.67;
+    color: #ffffff;
+    margin-right: 28px;
+}
+.header-hero-info-btn-watch {
+    display: flex;
+    align-items: center;
+}
+.header-hero-info-btn-watch img {
+    position: relative;
+    top: 8px;
+}
+
+.header-hero-info-btn-watch-title {
+    font-weight: 600;
+    font-size: 18rem;
+    line-height: 1.67;
+    color: #171100;
+    /* margin-left: 14px; */
+}
+.header-hero-info-sub-title {
+    font-size: 18rem;
+    line-height: 1.67;
+    color: #5f5b53;
+    margin-bottom: 8px;
+}
+.header-hero-info-number {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.header-hero-info > .row {
+    gap: 28px;
+}
+.header-hero-info-number-title {
+    font-family: var(--font-secondary);
+    font-size: 44rem;
+}
+/* .header-hero-info-number-desc {
+} */
+.header-hero-intro img {
+    width: 48px;
+    height: 48px;
+}
+.header-hero-intro > .row {
+    gap: 16px;
+    align-items: center;
+}
+.header-hero-intro {
+    background: #ffffff;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    width: 47.3%;
+    gap: 14px;
+    padding: 24px;
+    position: absolute;
+    bottom: 48px;
+    right: 0;
+}
+.header-hero-intro-block p {
+    font-size: 14rem;
+    line-height: 1.86;
+    color: #5f5b53;
+}
+.header-hero-intro-block strong {
+    font-weight: 600;
+    font-size: 18rem;
+    line-height: 1.67;
+    color: #171100;
 }
