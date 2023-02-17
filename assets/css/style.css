@@ -34,7 +34,7 @@ body {
 .header {
     background-color: #fffcf4;
     padding-top: 36px;
-    height: 100vh;
+    padding-bottom: 55px;
 }
 .header-nav {
     align-items: center;
@@ -189,4 +189,79 @@ body {
     font-size: 18rem;
     line-height: 1.67;
     color: #171100;
+}
+/* courses */
+.courses {
+    margin: 210px 0 200px;
+}
+.content {
+}
+.courses-title {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 38rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+    margin-bottom: 16px;
+}
+.courses-desc {
+    width: 39.145%;
+    font-size: 18rem;
+    line-height: 1.67;
+    color: #5f5b53;
+    margin-bottom: 55px;
+}
+.pd22 {
+    padding: 16px 22px 22px;
+}
+.courses-list {
+    gap: 30px;
+}
+.courses-block {
+    flex: 1;
+}
+.courses-block a img {
+    width: 370px;
+    height: 278px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px;
+}
+/* .courses-button {
+} */
+.courses-block .pd22 .row {
+    align-items: center;
+}
+.courses-block .pd22 .row h3 {
+    font-weight: 600;
+    font-size: 18rem;
+    line-height: 30px;
+    color: #171100;
+}
+.courses-block .pd22 img {
+    width: 18px;
+    height: 18px;
+    margin-left: auto;
+    margin-right: 6px;
+}
+.courses-block .pd22 p {
+    margin-top: 6px;
+    margin-bottom: 12px;
+    font-size: 14rem;
+    line-height: 1.86;
+}
+.courses-btn {
+    background-color: #ffb900;
+    color: white;
+    font-weight: 600;
+    font-size: 14rem;
+}
+.courses-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.courses-button strong {
+    font-weight: 600;
+    font-size: 18rem;
 }
