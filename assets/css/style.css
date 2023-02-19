@@ -9,7 +9,6 @@ body {
     font-size: 16rem;
     font-family: var(--font-primary);
 }
-/* Thành phần dùng chung */
 .content {
     width: 1170px;
     max-width: 100%;
@@ -30,7 +29,6 @@ body {
     min-width: 118px;
     min-height: 50px;
 }
-/*============== header============== */
 .fix-header {
     position: sticky;
     top: 0;
@@ -46,14 +44,10 @@ body {
 .header-nav {
     align-items: center;
 }
-/* .header-nav-logo {
-} */
 .header-nav-menu {
     margin-left: auto;
     gap: 42px;
 }
-/* .header-nav-item {
-} */
 .header-nav-link {
     font-weight: 400;
     font-size: 16rem;
@@ -84,7 +78,6 @@ body {
     margin-left: 70px;
     width: 144px;
 }
-/* header hero */
 .header-hero {
     padding-top: 52px;
 }
@@ -140,13 +133,11 @@ body {
     position: relative;
     top: 8px;
 }
-
 .header-hero-info-btn-watch-title {
     font-weight: 600;
     font-size: 18rem;
     line-height: 1.67;
     color: #171100;
-    /* margin-left: 14px; */
 }
 .header-hero-info-sub-title {
     font-size: 18rem;
@@ -166,8 +157,6 @@ body {
     font-family: var(--font-secondary);
     font-size: 44rem;
 }
-/* .header-hero-info-number-desc {
-} */
 .header-hero-intro img {
     width: 48px;
     height: 48px;
@@ -198,12 +187,9 @@ body {
     line-height: 1.67;
     color: #171100;
 }
-/* courses */
 .courses {
     margin: 210px 0 200px;
 }
-/* .content {
-} */
 .courses-title {
     font-family: var(--font-secondary);
     font-weight: 700;
@@ -235,8 +221,6 @@ body {
     object-fit: cover;
     border-radius: 12px 12px 0px 0px;
 }
-/* .courses-button {
-} */
 .courses-block .pd22 .row {
     align-items: center;
 }
@@ -281,7 +265,6 @@ body {
     font-weight: 600;
     font-size: 18rem;
 }
-/* feedback */
 .feedback {
     background-color: #2e2100;
     padding: 96px 0;
@@ -291,7 +274,6 @@ body {
 }
 .feedback-user {
     width: 12.82%;
-    /* width: 159px; */
 }
 .feedback-user img {
     width: 72px;
@@ -345,7 +327,6 @@ body {
 .dot.active {
     background: #ffb900 !important;
 }
-/* ================= platform ================== */
 .platform {
     padding: 197px 0 200px;
 }
@@ -417,7 +398,6 @@ body {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
-/* blog */
 .blog {
     background-color: #fffcf4;
     padding: 96px 0;
@@ -450,8 +430,6 @@ body {
     border-radius: 16px;
 }
 .blog-item img {
-    /* width: 370px;
-    height: 250px; */
     object-fit: cover;
     border-radius: 16px 16px 0px 0px;
 }
@@ -519,7 +497,6 @@ body {
     line-height: 1.86;
     color: #5f5b53;
 }
-/* footer */
 .footer {
     background: #2e2100;
     padding-top: 96px;
